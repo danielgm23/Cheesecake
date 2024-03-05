@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Source Serif 4", serif;
+}
+
+main {
+    
+    margin: auto;
+    
+}
+.img-jpg {
+
+    margin-bottom: 4.7rem;
+}
+:root {
+
+    font-size: 62.5%;  
+
+}
+.page {
+    padding:  5.7rem 3.2rem;
+
+}
+ h1{
+    margin-bottom: 4.7rem;
+} 
+h2{
+    margin-bottom: 3.6rem;
+}
+
+.info-prepare h1 {
+    margin-bottom: 3.2rem;
+}
+
+.info-item {
+    margin-bottom: 3.2rem;
+   
+}
+   
+
+.info-prepare {
+    margin-bottom: 3.2rem;
+   
+}
+
+.info-item strong {
+    
+    color: #A54328;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.info-prepare strong {
+    
+    color: #A54328;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+p {
+    color: #A54328;
+    font-family: "Source Serif Pro";
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+ul, ol {
+    color: #A54328;
+    font-family: "Source Serif Pro";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4rem;
+
+    margin-bottom: 3.0rem;
+    padding-left: 1.0rem;
+}
+
+h1, h2 {
+    color: #A54328;
+    font-family: "Source Serif Pro";
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+button {
+    border-radius: 0.6rem;
+    background-color: #A54328;
+    height: 3.2rem;
+    width: 9.5rem;
+    color: white;
+}
+
+@media (min-width: 70rem) {
+
+body {
+    margin: auto;
+    width: 1149px;
+    background: url(img/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.png);
+}
+    
+.page {
+
+    display: flex;
+
+    width: 1150px;
+}
+.info-item {
+    width: 44.0rem;
+    margin-right:  18.9rem;
+    
+}
+
+h1, h2 {
+    font-size: 4.0rem;
+    width: 44.0rem;
+}
+
+h1 {
+    margin-bottom: 6.6rem;
+}
+h2 {
+    margin-bottom: 5.1rem;
+}
+
+p, ul , ol {
+    font-size: 2.0rem;
+    line-height: normal;
+    width: 44.0rem;
+}
+.info-item strong {
+    
+    color: #A54328;
+    font-weight: bold;
+    font-size: 2.0rem;
+    margin-bottom: 0;
+}
+
+.info-prepare strong {
+    
+    color: #A54328;
+    font-weight: bold;
+    font-size: 2.0rem;
+}
+p {
+    margin-top: 6.6rem;
+} 
+ul, ol {
+    padding-left: 2.0rem;
+}
+}
